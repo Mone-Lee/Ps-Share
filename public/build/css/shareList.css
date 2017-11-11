@@ -1,0 +1,76 @@
+
+.comfirn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 275px;
+  height: 153px;
+  z-index: 19920220;
+  box-shadow: 0px 0px 5px -2px;
+}
+.comfirn .message {
+    padding: 45px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+.comfirn .btn {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.comfirn .btn-confirm {
+    border-top: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.comfirn .btn-cancel {
+    background-color: #ffffff;
+    color: #9E9E9E;
+    border-right: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.paginator[data-v-295b260f] {
+  width: 100%;
+  text-align: center;
+}
+.paginator .left[data-v-295b260f], .paginator .right[data-v-295b260f] {
+    display: inline-block;
+    width: 2.4375rem;
+    height: 2.4375rem;
+    line-height: 2.4375rem;
+    background-color: white;
+    color: #222;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+}
+.paginator .middle[data-v-295b260f], .paginator .middle-input[data-v-295b260f] {
+    display: inline-block;
+    height: 2.4375rem;
+    line-height: 2.4375rem;
+    padding: 0 0.75rem;
+    margin: 0 0.125rem;
+    background-color: white;
+    color: #222;
+    border-radius: 0.125rem;
+    border: 1px solid #dddddd;
+}
+.paginator .middle-input[data-v-295b260f] {
+    padding: 0;
+    width: 102.41px;
+}
+.paginator .middle-input .input-index[data-v-295b260f] {
+      width: 80px;
+      height: 35px;
+      padding-left: 15px;
+      border: 0;
+}

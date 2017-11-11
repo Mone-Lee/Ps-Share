@@ -1,0 +1,1062 @@
+
+#app {
+        height: 100%;
+}
+.header{
+    height: 52px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.container{
+        width:100%;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 auto;
+}
+.layout {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+}
+.layout__aside {
+        float: left;
+        width: 200px;
+        height: 100%;
+        background: white;
+        border-right: 1px solid #E8E8E8;
+}
+.layout__main {
+        width: 880px;
+        margin: 0 auto;
+        padding-top: 87px;
+        overflow: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.layout__main__title{
+        position: fixed;
+        height: 48px;
+        line-height: 48px;
+        margin: 0px;
+        width: inherit;
+        border-bottom: 1px solid #ccc;
+        background: #fff;
+        padding-left: 10px;
+}
+.layout__main__content{
+        margin-top: 58px;
+        height: 1000px;
+        background: #0a0;
+}
+#panel{
+    height:850px;
+    width:1080px;
+    margin:0 auto;
+}
+#panelleft{
+    display:block;
+    float:left;
+    height:850px;
+    width:250px;
+    background:red;
+    text-align:center;
+}
+#panelleft img{
+    margin:30px 40px;
+    height:170px;
+    width:170px;
+}
+#panelleft_nav{
+}
+#panelright{
+    display:block;
+    float:left;
+    height:850px;
+    width:830px;
+    background:blue;
+}
+.panelright_head{
+    height:40px;
+    width:730px;
+    background:green;
+    margin:30px 50px;
+}
+.panelright_head p{
+    font-size: 25px;
+    height: 40px;
+    float: left;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.panelright_head input{
+    margin:5px 0;
+}
+.panelright_head_search{
+    display:block;
+    float:right;
+}
+.panelright_itembox{
+    height:260px;
+    width:780px;
+    background:black;
+    margin:10px 25px;
+}
+.panelright_itembox_creatshare{
+    height:260px;
+    width:260px;
+    background:white;
+    display:block;
+    float:left;
+}
+.panelright_itembox_item{
+    height:260px;
+    width:520px;
+    background:yellow;
+    display:block;
+    float:left;
+}
+.panelright_newshare {
+    height: 300px;
+    width: 500px;
+    background: black;
+    margin: 80px 165px;
+    overflow:hidden;
+}
+.panelright_newshare_picture{
+    height:260px;
+    width:200px;
+    background:yellow;
+    margin:20px 10px 20px 20px;
+    display:block;
+    float:left;
+    overflow :auto
+}
+.panelright_newshare_info{
+    height:260px;
+    width:240px;
+    background:red;
+    margin:20px 20px 20px 10px;
+    display:block;
+    float:left;
+    text-align:left;
+}
+
+
+
+
+.navbar{
+	width: 100%;
+	height: 52px;
+	line-height: 52px;
+	overflow: hidden;
+	display:block;
+	margin:0 auto;
+	z-index:999;
+	border-bottom: 1px solid #eee !important;
+	background: #fff;
+	box-shadow: 0 0 9px 0px #ddd;
+}
+.navbar__brand{
+	font-size: 24px;
+	padding: 0px 20px;
+	margin: 0px 5px;
+	color:#aaa;
+}
+.navbar__links{
+	float: right;
+	margin: 0px 10px;
+}
+.navbar__links>li{
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 0px 5px;
+}
+.navbar__portrait{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	border-radius: 50%;
+	border:2px dashed #aaa;
+	vertical-align:middle;
+	background:#fff;
+}
+.navbar__link{
+	cursor: pointer;
+}
+
+
+.sidebar{
+		text-align: center;
+		padding-top: 52px;
+}
+.userOption{
+    	list-style: none;
+    	margin: 0px;
+    	padding: 0px;
+}
+.userOption__item{
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+    	border-bottom: 1px solid #E8E8E8;
+}
+.userOption__item:hover{
+		background: #e7e7e7;
+}
+.userPortrait-large{
+    	border-radius: 50%;
+    	width: 112px;
+    	border: 2px dashed #aaa;
+    	margin:20px 0px;
+    	background: #fff;
+}
+.active{
+		background: #e7e7e7;
+}
+.userOption__item a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        color: black;
+}
+.router-link-active {
+        background-color: #e7e7e7;
+}
+
+
+.comfirn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 275px;
+  height: 153px;
+  z-index: 19920220;
+  box-shadow: 0px 0px 5px -2px;
+}
+.comfirn .message {
+    padding: 45px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+.comfirn .btn {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.comfirn .btn-confirm {
+    border-top: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.comfirn .btn-cancel {
+    background-color: #ffffff;
+    color: #9E9E9E;
+    border-right: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.paginator[data-v-295b260f] {
+  width: 100%;
+  text-align: center;
+}
+.paginator .left[data-v-295b260f], .paginator .right[data-v-295b260f] {
+    display: inline-block;
+    width: 2.4375rem;
+    height: 2.4375rem;
+    line-height: 2.4375rem;
+    background-color: white;
+    color: #222;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+}
+.paginator .middle[data-v-295b260f], .paginator .middle-input[data-v-295b260f] {
+    display: inline-block;
+    height: 2.4375rem;
+    line-height: 2.4375rem;
+    padding: 0 0.75rem;
+    margin: 0 0.125rem;
+    background-color: white;
+    color: #222;
+    border-radius: 0.125rem;
+    border: 1px solid #dddddd;
+}
+.paginator .middle-input[data-v-295b260f] {
+    padding: 0;
+    width: 102.41px;
+}
+.paginator .middle-input .input-index[data-v-295b260f] {
+      width: 80px;
+      height: 35px;
+      padding-left: 15px;
+      border: 0;
+}
+/**
+ * if $flag is true then use pxToRem else use original unit , and $flag's default value is true.
+*/
+/**
+ * $px can has unit or hasn't
+*/
+body, h1, h2, h3, h4, h5, h6, blockquote, p, pre, dl, dd, ol, ul, li, a, span, caption, th, td, form, fieldset, legend, input, button, textarea, address {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+ol, ul {
+  list-style: none; }
+
+li {
+  list-style: none; }
+
+fieldset, img {
+  border: 0; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp {
+  font-family: courier new, courier, monospace; }
+
+input, button, textarea, select {
+  font-size: 100%; }
+
+input, button, select, textarea {
+  outline: none; }
+
+textarea {
+  resize: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  font-size: inherit; }
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+a, a:hover, a:link, a:visited, a:focus {
+  text-decoration: none;
+  color: #aaa; }
+
+a :focus, label:focus {
+  outline: 0 none; }
+
+a, img {
+  border: 0 none; }
+
+s {
+  font-style: normal;
+  text-decoration: none; }
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #3b3b3b;
+  font-weight: normal; }
+
+::-webkit-input-placeholder {
+  color: #3b3b3b;
+  font-weight: normal; }
+
+input:-ms-input-placeholder {
+  color: #3b3b3b;
+  font-weight: normal; }
+
+::-ms-clear {
+  display: none; }
+
+::-ms-reveal {
+  display: none; }
+
+input::-ms-clear {
+  display: none; }
+
+input::-ms-reveal {
+  display: none; }
+
+body {
+  font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", arial, sans-serif; }
+
+button, input, select, textarea {
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", arial, sans-serif; }
+
+.clearfix:after {
+  display: block;
+  content: " ";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*ie8+*/
+.clearfix {
+  *zoom: 1; }
+
+/*ie6.7*/
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.fadeLink {
+  color: #aaa;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.fadeLink:hover {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.6); }
+/**
+ * $px can has unit or hasn't
+*/
+.addShareClassification {
+  width: 31.25rem;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.addShareClassification input {
+    width: 12.125rem;
+    height: 1.5625rem;
+    padding-left: 0.375rem;
+}
+.addShareClassification button {
+    padding: 0 0.8125rem;
+    height: 1.8125rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+.addShareClassification .cancel {
+    background-color: #9E9E9E;
+    color: white;
+}
+.classification-list {
+  width: 31.25rem;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+.classification-list tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.classification-list tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.classification-list tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+}
+.classification-list tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.batch-delete {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+.batch-delete button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.addKeyword {
+  width: 31.25rem;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.addKeyword input {
+    width: 12.125rem;
+    height: 1.5625rem;
+    padding-left: 0.375rem;
+}
+.addKeyword button {
+    padding: 0 0.8125rem;
+    height: 1.8125rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+.addKeyword .cancel {
+    background-color: #9E9E9E;
+    color: white;
+}
+.keyword-list {
+  width: 31.25rem;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+.keyword-list tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.keyword-list tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.keyword-list tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+}
+.keyword-list tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.batch-delete {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+.batch-delete button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.report-type {
+  width: 50rem;
+  margin: 1.25rem auto;
+}
+.report-type a {
+    color: #aaa;
+    margin-right: 4px;
+}
+.report-type .router-link-active {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+}
+.addReportClassification {
+  width: 31.25rem;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.addReportClassification input {
+    width: 12.125rem;
+    height: 1.5625rem;
+    padding-left: 0.375rem;
+}
+.addReportClassification button {
+    padding: 0 0.8125rem;
+    height: 1.8125rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+.addReportClassification .cancel {
+    background-color: #9E9E9E;
+    color: white;
+}
+.classification-list {
+  width: 31.25rem;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+.classification-list tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.classification-list tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.classification-list tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+}
+.classification-list tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.batch-delete {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+.batch-delete button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.report-list, .report-list-dialog {
+  width: 50rem;
+  margin: 1.25rem auto;
+  text-align: center;
+  table-layout: fixed;
+}
+.report-list tr:nth-child(odd), .report-list-dialog tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.report-list tr:nth-child(1), .report-list-dialog tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.report-list tr .name, .report-list-dialog tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.report-list tr .operate, .report-list-dialog tr .operate {
+    width: 25%;
+}
+.report-list tr button, .report-list-dialog tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.report-dialog {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 820px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 3px 0px #bdbdbd;
+}
+.report-dialog .div-btn {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    text-align: center;
+}
+.report-dialog .div-btn button {
+      width: 100px;
+      height: 32px;
+      background: white;
+      border: 1px solid #9a9a9a;
+      color: #9a9a9a;
+      cursor: pointer;
+}
+.batch-delete {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+.batch-delete button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.report-list, .report-list-dialog {
+  width: 50rem;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+.report-list tr:nth-child(odd), .report-list-dialog tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.report-list tr:nth-child(1), .report-list-dialog tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.report-list tr .name, .report-list-dialog tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.report-list tr .operate, .report-list-dialog tr .operate {
+    width: 25%;
+}
+.report-list tr .operate div, .report-list-dialog tr .operate div {
+      display: inline-block;
+}
+.report-list tr button, .report-list-dialog tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.report-dialog {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 820px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 3px 0px #bdbdbd;
+}
+.report-dialog .div-btn {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    text-align: center;
+}
+.report-dialog .div-btn button {
+      width: 100px;
+      height: 32px;
+      background: white;
+      border: 1px solid #9a9a9a;
+      color: #9a9a9a;
+      cursor: pointer;
+}
+.batch-delete {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+.batch-delete button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.addReportClassification {
+  width: 31.25rem;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.addReportClassification input {
+    width: 12.125rem;
+    height: 1.5625rem;
+    padding-left: 0.375rem;
+}
+.addReportClassification button {
+    padding: 0 0.8125rem;
+    height: 1.8125rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+.addReportClassification .cancel {
+    background-color: #9E9E9E;
+    color: white;
+}
+.classification-list {
+  width: 31.25rem;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+.classification-list tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.classification-list tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.classification-list tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+}
+.classification-list tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.batch-delete {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+.batch-delete button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.search-module {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.search-module select {
+    height: 1.8125rem;
+}
+.search-module input {
+    width: 12.125rem;
+    height: 1.5625rem;
+    padding-left: 0.375rem;
+}
+.search-module button {
+    padding: 0 0.8125rem;
+    height: 1.8125rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+.user-list {
+  width: 50rem;
+  margin: 1.25rem auto;
+  text-align: center;
+  table-layout: fixed;
+}
+.user-list tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.user-list tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.user-list tr .name {
+    padding: 0.4375rem 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.user-list tr .operate {
+    width: 25%;
+}
+.user-list tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.user-list tr button.role-btn {
+    width: 4.6875rem;
+}
+.batch {
+  width: 31.25rem;
+  margin-left: 2.5rem;
+}
+.batch button {
+    height: 1.8125rem;
+    padding: 0 1.0625rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.role-dialog {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 3px 0px #bdbdbd;
+}
+.role-dialog .role-list {
+    width: 400px;
+    overflow-y: auto;
+}
+.role-dialog .role-list ul {
+      width: 200px;
+      height: 320px;
+      margin: 0 auto;
+      padding-top: 18px;
+}
+.role-dialog .role-list ul li {
+        padding: 4px 0;
+}
+.role-dialog .div-btn {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    text-align: center;
+    background-color: white;
+}
+.role-dialog .div-btn button {
+      width: 100px;
+      height: 32px;
+      background: white;
+      border: 1px solid #9a9a9a;
+      color: #9a9a9a;
+      cursor: pointer;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.permission-add-btn {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.permission-add-btn button {
+    padding: 0 0.8125rem;
+    height: 1.8125rem;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    cursor: pointer;
+}
+.table-role-list {
+  width: 50rem;
+  margin: 1.25rem auto;
+  text-align: center;
+  table-layout: fixed;
+  overflow: hidden;
+}
+.table-role-list tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.table-role-list tr:nth-child(1) {
+    background-color: #f1f1f1;
+}
+.table-role-list tr .name {
+    width: 10%;
+    padding: 0.4375rem 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.table-role-list tr .description {
+    width: 10%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.table-role-list tr .operate {
+    width: 15%;
+}
+.table-role-list tr button {
+    width: 3.625rem;
+    height: 1.625rem;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.table-role-list tr button.role-btn {
+    width: 4.6875rem;
+}
+/**
+ * $px can has unit or hasn't
+*/
+.permission-dialog {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 3px 0px #bdbdbd;
+}
+.permission-dialog .permission-add {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 8px 0px #b5b5b5;
+}
+.permission-dialog .permission-add input {
+      width: 9.375rem;
+      height: 1.5625rem;
+      padding-left: 0.375rem;
+}
+.permission-dialog .permission-add button {
+      padding: 0 0.8125rem;
+      height: 1.8125rem;
+      background-color: white;
+      border: 1px solid #9E9E9E;
+      cursor: pointer;
+}
+.permission-dialog .permission {
+    width: 100%;
+    height: 440px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow-y: auto;
+}
+.permission-dialog .permission .permission-content {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+}
+.permission-dialog .permission .permission-content .permission-item {
+        float: left;
+        width: 25%;
+        margin: 0;
+        padding: 7px 0;
+}
+.permission-dialog .permission .permission-content .permission-item h4, .permission-dialog .permission .permission-content .permission-item p {
+          padding: 4px 0;
+}
+
+
+
+
+
+
+
+
